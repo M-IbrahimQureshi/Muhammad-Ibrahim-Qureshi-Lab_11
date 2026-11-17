@@ -1,0 +1,13 @@
+// Student Information System
+#include <stdio.h>
+int main(){
+	char Name[20];
+	char S_Name[50];
+	printf("Enter Student's Full Name: ");
+	scanf("%s", &Name);
+	printf("Length of Student is %d \n", strlen(Name));
+	strcpy(S_Name,Name);
+	printf("Original Name: %s\n", S_Name);
+	strcat(S_Name," Fast University");
+	printf("Modified Name: %s\n", S_Name);
+}
